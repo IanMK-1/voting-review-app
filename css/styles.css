@@ -1,0 +1,23 @@
+.jumbotron {
+    background-image: url("../images/bg3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    
+}
+.jumbotron h1{
+    font-size: 100px;
+    font-family: 'Fredoka One', cursive;
+    color: black;
+}
+.jumbotron h4 {
+    font-size: 40px;
+    font-family: 'Fredoka One', cursive;
+    color: black;
+}
+.info {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
