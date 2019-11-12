@@ -20,12 +20,16 @@
     text-align: center;
     font-family: 'Raleway', sans-serif;
 }
+.card {
+    margin-top: 20px;
+    border-color: blue;
+    border-width: 3px;
+}
 .sub-heading {
     margin-top: 20px;
     text-align: center;
     font-family: 'Fredoka One', cursive;
     font: bold;
-    border-color: blue;
     padding-bottom: 10px;
 }
 .btn {
