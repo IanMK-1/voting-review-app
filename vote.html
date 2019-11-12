@@ -42,11 +42,24 @@
             </div>
             <div class="row">
                 <div class="col-md-3">
-                    <div class="voteOn">
-                        <p><strong>Please select a topic to vote on:</strong></p>
-                        <button class="btn bg-primary" id="election">Election</button>
-                        <br>
-                        <button class="btn bg-primary" id="referendum">Referendums</button>
+                    <div class="card" id="sidenav">
+                        <div class="voteOn">
+                            <p><strong>Please select a topic to vote on:</strong></p>
+                            <button class="btn bg-primary" id="election">Election</button>
+                            <br>
+                            <button class="btn bg-primary" id="referendum">Referendums</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="card" id="query">
+                        <div class="chooseCounty">
+                            <p>Please select your county.</p>
+                            <select id="county">
+                                <option value="nairobi">Nairobi</option>
+                            </select>
+                            <button class="btn bg-info" id="submit-county">Submit</button>
+                        </div>
                     </div>
                 </div>
             </div>

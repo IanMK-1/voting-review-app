@@ -1,3 +1,6 @@
+.container {
+    margin-bottom: 20px;
+}
 .jumbotron {
     background-image: url("../images/bg3.jpg");
     background-size: cover;
@@ -44,4 +47,24 @@
 .voteOn {
     font-family: 'Raleway', sans-serif;
 }
-
+.card#sidenav {
+    border-color: black;
+    border-width: 2px;
+    padding: 5px;
+}
+.chooseCounty {
+    display: none;
+    text-align: center;
+    margin: auto;
+    margin-top: 55px;
+    font-family: 'Raleway', sans-serif;
+}
+button#submit-county {
+    margin-top: 5px;
+}
+.card#query {
+    border-color: black;
+    border-width: 2px;
+    padding: 5px;
+    padding-bottom: 250px;
+}
