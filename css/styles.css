@@ -20,4 +20,24 @@
     text-align: center;
     font-family: 'Raleway', sans-serif;
 }
+.sub-heading {
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    font: bold;
+    border-color: blue;
+    padding-bottom: 10px;
+}
+.btn {
+    margin-bottom: 5px;
+}
+#election {
+    width: 100%;
+}
+#referendum {
+    width: 100%;
+}
+.voteOn {
+    font-family: 'Raleway', sans-serif;
+}
 
