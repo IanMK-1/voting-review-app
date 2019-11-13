@@ -6,6 +6,8 @@ $(document).ready(function(){
         if($("#county").val()==="nairobi"){
             $(".chooseCounty").hide();
             $(".votingPage").show();
+            $("#but1").text("Vote");
+            $("#but2").text("Vote");
         }
     });
 });
