@@ -2,4 +2,10 @@ $(document).ready(function(){
     $("button#election").click(function(){
         $(".chooseCounty").show();
     });
+    $("button#submit-county").click(function(){
+        if($("#county").val()==="nairobi"){
+            $(".chooseCounty").hide();
+            $(".votingPage").show();
+        }
+    });
 });

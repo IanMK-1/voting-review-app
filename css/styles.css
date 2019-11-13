@@ -1,6 +1,10 @@
 .container {
     margin-bottom: 20px;
 }
+body {
+    margin: 0;
+    padding: 0;
+}
 .jumbotron {
     background-image: url("../images/bg3.jpg");
     background-size: cover;
@@ -67,4 +71,11 @@ button#submit-county {
     border-width: 2px;
     padding: 5px;
     padding-bottom: 250px;
+}
+.votingPage {
+    display: none;
+    text-align: center;
+    margin: 3%;
+    margin-top: 55px;
+    font-family: 'Raleway', sans-serif;
 }
