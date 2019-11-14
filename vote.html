@@ -42,7 +42,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-2">
                     <div class="card" id="sidenav">
                         <div class="voteOn">
                             <p><strong>Please select a topic to vote on:</strong></p>
@@ -52,7 +52,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-9">
+                <div class="col-md-10">
                     <div class="card" id="query">
                         <div class="details">
                             <h4><strong>Election</strong></h4>
@@ -78,15 +78,15 @@
                         <div class="chooseCounty">
                             <p>Please select your county.</p>
                             <select id="county">
-                                <option value="nairobi">Nairobi</option>
-                                <option value="kiambu">Kiambu</option>
+                                <option value="Nairobi">Nairobi</option>
+                                <option value="Kiambu">Kiambu</option>
                             </select>
                             <button class="btn bg-info" id="submit-county">Submit</button>
                         </div>
-                        <div class="prezzo">
+                        <div class="president">
                             <h4><strong>President</strong></h4>
                             <div class="table-responsive">
-                                <table class="table table-bordered">
+                                <table class="table table-bordered" id="t">
                                     <th>Candidates</th>
                                     <th>Political Party</th>
                                     <th></th>
@@ -103,29 +103,50 @@
                                 </table>
                             </div>
                         </div>
-                        <div class="governor">
-                            <h4><strong><div class="nameOfCounty"></div> County</strong></h4>
-                            <h5><strong>Governor</div></strong></h5>
+                        <div class="governor1">
+                            <h4><strong><div class="nameOfCounty"></div>County</strong></h4>
+                            <h5><strong>Governor</strong></h5>
                             <div class="table-responsive">
-                                <table class="table table-bordered">
+                                <table class="table table-bordered" id="t1">
                                     <th>Candidates</th>
                                     <th>Political Party</th>
                                     <th></th>
                                     <tr>
-                                        <td>1. Allan cahill</td>
+                                        <td>1. Mason Perry</td>
                                         <td>NARC Kenya</td>
                                         <td><button type="button" class="btn bg-primary" id="Candidate3"><div id="but3"></div></button></td>
                                     </tr>
                                     <tr>
-                                        <td>2. Paul Jones</td>
+                                        <td>2. Phil Walker</td>
                                         <td>Jubilee</td>
                                         <td><button type="button" class="btn bg-primary" id="Candidate4"><div id="but4"></div></button></td>
-                                    </tr>
+                                    </tr>   
                                 </table>
                             </div>
                         </div>
-                    </div>
-                </div>
+                        <div class="governor2">
+                            <h4><strong><div class="nameOfCounty"></div>County</strong></h4>
+                            <h5><strong>Governor</strong></h5>
+                            <div class="table-responsive">
+                                <table class="table table-bordered" id="t2">
+                                    <th>Candidates</th>
+                                    <th>Political Party</th>
+                                    <th></th>
+                                    <tr>
+                                        <td>1. John Grisham</td>
+                                        <td>NARC Kenya</td>
+                                        <td><button type="button" class="btn bg-primary" id="Candidate5"><div id="but5"></div></button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>2. Paul Jones</td>
+                                        <td>Jubilee</td>
+                                        <td><button type="button" class="btn bg-primary" id="Candidate6"><div id="but6"></div></button></td>
+                                    </tr>   
+                                </table>
+                            </div>
+                        </div>
+                    </div> 
+                </div>  
             </div>
         </div>
     </body>

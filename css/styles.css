@@ -75,18 +75,23 @@ button#submit-county {
     border-width: 2px;
     padding: 5px;
     padding-bottom: 20px;
-    resize: none;
 }
-.prezzo {
+.president {
     display: none;
     text-align: center;
     margin: 3%;
     margin-top: 55px;
     font-family: 'Raleway', sans-serif;
 }
-.governor {
+.governor1, .governor2 {
     display: none;
     text-align: center; 
+    margin-top: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+.governor2 {
+    display: none;
+    text-align: center;
     margin-top: 15px;
     font-family: 'Raleway', sans-serif;
 }
@@ -95,3 +100,4 @@ button#submit-county {
     text-align: center;
     font-family: 'Raleway', sans-serif;
 }
+

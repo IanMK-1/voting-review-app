@@ -9,22 +9,36 @@ $(document).ready(function(){
         $(".chooseCounty").show();
     });
     $("button#submit-county").click(function(){
-        if($("#county").val()==="nairobi" || $("#county").val()==="kiambu"){
-            $(".chooseCounty").hide();
-            $(".prezzo").show();
-            $(".table").show();
+        $("#but1").text("Vote");
+        $("#but2").text("Vote");
+        $("#but3").text("Vote");
+        $("#but4").text("Vote");
+        $("#but5").text("Vote");
+        $("#but6").text("Vote");
+
+        $(".chooseCounty").hide();
+        
+        if($("#county").val()==="Nairobi"){
+            $(".president").show();
+            $("#t").show();
             $(".nameOfCounty").text($("#county").val());
-            $(".governor").show();
-            $("#but1").text("Vote");
-            $("#but2").text("Vote");
-            $("#but3").text("Vote");
-            $("#but4").text("Vote");
+            $(".governor1").show();
+            $("#t1").show();
+            
+        }
+        else if ($("#county").val()==="Kiambu"){
+            $(".president").show();
+            $("#t").show();
+            $(".nameOfCounty").text($("#county").val());
+            $(".governor2").show();
+            $("#t2").show();
+            
         }
     });
     $("#Candidate1").one("click",function(){
         presidentVote1+=1;
         $("#but1").text("+1");
-        $("#Candidate2").attr("disabled",true);
+        $("#Candidate2").attr("disabled",true);                                                                                                                                                                                                                                                                                                                     
         alert(presidentVote1);
     });
     $("#Candidate2").one("click",function(){
