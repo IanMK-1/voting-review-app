@@ -18,21 +18,33 @@ $(document).ready(function(){
     var mcaVote3 = 0;
     var mcaVote4 = 0;
     var referundum1 = 0;
+    var referundum2 = 0;
 
 
     $("button#election").one("click",function(){
         $(".details").hide();
         $(".chooseCounty").show();
+        $("button#referendum").attr("disabled",true);
     });
     $("button#referendum").one("click",function(){
         $(".details").hide();
         $(".ref1").show();
         $(".voteRef1").text("Vote");
+        $(".ref2").show();
+        $(".voteRef2").text("Vote");
+        $("button#election").attr("disabled",true);
     });
     $("button#vote-ref1").one("click",function(){
         referundum1+=1;
         $(".voteRef1").text("+1");
+        $("button#vote-ref2").attr("disabled",true)
         alert(referundum1);
+    })
+    $("button#vote-ref2").one("click",function(){
+        referundum2+=1;
+        $(".voteRef2").text("+1");
+        $("button#vote-ref1").attr("disabled",true);
+        alert(referundum2);
     })
     $("button#submit-county").click(function(){
         $("#but1").text("Vote");
