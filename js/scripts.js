@@ -152,109 +152,109 @@ $(document).ready(function(){
         presidentVote1+=1;
         $("#but1").text("+1");
         $("#Candidate2").attr("disabled",true);                                                                                                                                                                                                                                                                                                                     
-        alert(presidentVote1);
+        
     });
     $("#Candidate2").one("click",function(){
         presidentVote2+=1;
         $("#but2").text("+1");
         $("#Candidate1").attr("disabled",true);
-        alert(presidentVote2);
+        
     });
     $("#Candidate3").one("click",function(){
         governorVote1+=1;
         $("#but3").text("+1");
         $("#Candidate4").attr("disabled",true);
-        alert(governorVote1);
+        
     });
     $("#Candidate4").one("click",function(){
         governorVote2+=1;
         $("#but4").text("+1");
         $("#Candidate3").attr("disabled",true);
-        alert(governorVote2);
+        
     });
     $("#Candidate5").one("click",function(){
         governorVote3+=1;
         $("#but5").text("+1");
         $("#Candidate6").attr("disabled",true);
-        alert(governorVote3);
+        
     });
     $("#Candidate6").one("click",function(){
         governorVote4+=1;
         $("#but6").text("+1");
         $("#Candidate5").attr("disabled",true);
-        alert(governorVote4);
+        
     });
     $("#Candidate7").one("click",function(){
         mpVote1+=1;
         $("#but7").text("+1");
         $("#Candidate8").attr("disabled",true);
-        alert(mpVote1);
+        
     });
     $("#Candidate8").one("click",function(){
         mpVote2+=1;
         $("#but8").text("+1");
         $("#Candidate7").attr("disabled",true);
-        alert(mpVote2);
+        
     });
     $("#Candidate9").one("click",function(){
         mpVote3+=1;
         $("#but9").text("+1");
         $("#Candidate10").attr("disabled",true);
-        alert(mpVote3);
+        
     });
     $("#Candidate10").one("click",function(){
         mpVote4+=1;
         $("#but10").text("+1");
         $("#Candidate9").attr("disabled",true);
-        alert(mpVote4);
+        
     });
     $("#Candidate11").one("click",function(){
         mpVote5+=1;
         $("#but11").text("+1");
         $("#Candidate12").attr("disabled",true);
-        alert(mpVote5);
+        
     });
     $("#Candidate12").one("click",function(){
         mpVote6+=1;
         $("#but12").text("+1");
         $("#Candidate11").attr("disabled",true);
-        alert(mpVote6);
+        
     });
     $("#Candidate13").one("click",function(){
         mpVote7+=1;
         $("#but13").text("+1");
         $("#Candidate14").attr("disabled",true);
-        alert(mpVote7);
+        
     });
     $("#Candidate14").one("click",function(){
         mpVote8+=1;
         $("#but14").text("+1");
         $("#Candidate13").attr("disabled",true);
-        alert(mpVote8);
+        
     });
     $("#Candidate15").one("click",function(){
         mcaVote1+=1;
         $("#but15").text("+1");
         $("#Candidate16").attr("disabled",true);
-        alert(mcaVote1);
+        
     });
     $("#Candidate16").one("click",function(){
         mcaVote2+=1;
         $("#but16").text("+1");
         $("#Candidate15").attr("disabled",true);
-        alert(mcaVote2);
+        
     });
     $("#Candidate17").one("click",function(){
         mcaVote3+=1;
         $("#but17").text("+1");
         $("#Candidate16").attr("disabled",true);
-        alert(mcaVote3);
+        
     });
     $("#Candidate18").one("click",function(){
         mcaVote4+=1;
         $("#but18").text("+1");
         $("#Candidate17").attr("disabled",true);
-        alert(mcaVote4);
+        
     });
     
 });
