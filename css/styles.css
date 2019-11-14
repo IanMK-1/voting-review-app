@@ -148,3 +148,34 @@ button#submit-county {
     margin-top: 15px;
     font-family: 'Raleway', sans-serif;
 }
+.btnNairobi{
+    display: none;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+.btnKiambu{
+    display: none;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+.textMsg {
+    display: none;
+    text-align: center;
+    margin-top: auto;
+    font-family: 'Raleway', sans-serif;
+}
+.democracy {
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    background-image: url("../images/bg2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 50px;
+    margin-top: 25px;
+    height: 250px;
+}

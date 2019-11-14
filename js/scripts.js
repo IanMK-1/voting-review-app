@@ -18,6 +18,7 @@ $(document).ready(function(){
     var mcaVote3 = 0;
     var mcaVote4 = 0;
 
+
     $("button#election").one("click",function(){
         $(".details").hide();
         $(".chooseCounty").show();
@@ -52,6 +53,7 @@ $(document).ready(function(){
             $(".yourLocation1").show();
             $(".mca1").show();
             $("#t7").show();
+            $(".btnNairobi").show();
             
         }
         else if ($("#county").val()==="Kiambu"){
@@ -62,6 +64,7 @@ $(document).ready(function(){
             $(".yourLocation").show();
             $(".mca2").show();
             $("#t8").show();
+            $(".btnKiambu").show();
             
         }
     });
@@ -87,6 +90,39 @@ $(document).ready(function(){
             $(".yourLocation1").hide();
             $(".mp4").show();
             $("#t6").show();
+        }
+    });
+    $(".btnNairobi").click(function(){
+        if (presidentVote2 > 0){
+            $(".president").hide();
+            $("#t").hide();
+            $(".governor1").hide();
+            $("#t1").hide();
+            $(".yourLocation1").hide();
+            $(".mca1").hide();
+            $("#t7").hide();
+            $(".btnNairobi").hide();
+            $(".textMsg").show();
+        }
+        else {
+            alert("Please vote for atmost one candidate for each position!");
+        }
+        
+    });
+    $(".btnKiambu").click(function(){
+        if(presidentVote2 > 0){
+            $(".president").hide();
+            $("#t").hide();
+            $(".governor2").hide();
+            $("#t2").hide();
+            $(".yourLocation").hide();
+            $(".mca2").hide();
+            $("#t8").hide();
+            $(".btnKiambu").hide();
+            $(".textMsg").show();
+        }
+        else {
+            alert("Please vote for atmost one candidate for each position!");
         }
     });
     $("#Candidate1").one("click",function(){
