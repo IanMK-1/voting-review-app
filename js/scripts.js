@@ -5,6 +5,10 @@ $(document).ready(function(){
     var governorVote2 = 0;
     var governorVote3 = 0;
     var governorVote4 = 0;
+    var mpVote1 = 0;
+    var mpVote2 = 0;
+    var mpVote3 = 0;
+    var mpVote4 = 0;
 
     $("button#election").one("click",function(){
         $(".details").hide();
@@ -17,13 +21,16 @@ $(document).ready(function(){
         $("#but4").text("Vote");
         $("#but5").text("Vote");
         $("#but6").text("Vote");
+        $("#but7").text("Vote");
+        $("#but8").text("Vote");
+        $("#but9").text("Vote");
+        $("#but10").text("Vote");
 
         $(".chooseCounty").hide();
         
         if($("#county").val()==="Nairobi"){
             $(".president").show();
             $("#t").show();
-            $(".nameOfCounty").text($("#county").val());
             $(".governor1").show();
             $("#t1").show();
             
@@ -31,10 +38,22 @@ $(document).ready(function(){
         else if ($("#county").val()==="Kiambu"){
             $(".president").show();
             $("#t").show();
-            $(".nameOfCounty").text($("#county").val());
             $(".governor2").show();
             $("#t2").show();
+            $(".yourLocation").show();
             
+        }
+    });
+    $("#submit-location").click(function(){
+        if($("#selectLocation").val()==="Ruiru"){
+            $(".yourLocation").hide();
+            $(".mp1").show();
+            $("#t3").show();
+        }
+        else if($("#selectLocation").val()==="Juja"){
+            $(".yourLocation").hide();
+            $(".mp2").show();
+            $("#t4").show();
         }
     });
     $("#Candidate1").one("click",function(){
@@ -72,6 +91,30 @@ $(document).ready(function(){
         $("#but6").text("+1");
         $("#Candidate5").attr("disabled",true);
         alert(governorVote4);
+    });
+    $("#Candidate7").one("click",function(){
+        mpVote1+=1;
+        $("#but7").text("+1");
+        $("#Candidate8").attr("disabled",true);
+        alert(mpVote1);
+    });
+    $("#Candidate8").one("click",function(){
+        mpVote2+=1;
+        $("#but8").text("+1");
+        $("#Candidate7").attr("disabled",true);
+        alert(mpVote2);
+    });
+    $("#Candidate9").one("click",function(){
+        mpVote3+=1;
+        $("#but9").text("+1");
+        $("#Candidate10").attr("disabled",true);
+        alert(mpVote3);
+    });
+    $("#Candidate10").one("click",function(){
+        mpVote4+=1;
+        $("#but10").text("+1");
+        $("#Candidate9").attr("disabled",true);
+        alert(mpVote4);
     });
     
 });

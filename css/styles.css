@@ -100,4 +100,21 @@ button#submit-county {
     text-align: center;
     font-family: 'Raleway', sans-serif;
 }
-
+.yourLocation {
+    display: none;
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+.mp1 {
+    display: none;
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+.mp2 {
+    display: none;
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Raleway', sans-serif;
+}
