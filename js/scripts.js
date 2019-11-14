@@ -12,6 +12,7 @@ $(document).ready(function(){
         if($("#county").val()==="nairobi" || $("#county").val()==="kiambu"){
             $(".chooseCounty").hide();
             $(".prezzo").show();
+            $(".table").show();
             $(".nameOfCounty").text($("#county").val());
             $(".governor").show();
             $("#but1").text("Vote");

@@ -86,8 +86,12 @@ button#submit-county {
 }
 .governor {
     display: none;
-    text-align: center;
-    margin: 3%;
+    text-align: center; 
     margin-top: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+.table {
+    display: none;
+    text-align: center;
     font-family: 'Raleway', sans-serif;
 }
