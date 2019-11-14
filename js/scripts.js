@@ -38,13 +38,13 @@ $(document).ready(function(){
         referundum1+=1;
         $(".voteRef1").text("+1");
         $("button#vote-ref2").attr("disabled",true)
-        alert(referundum1);
+        
     })
     $("button#vote-ref2").one("click",function(){
         referundum2+=1;
         $(".voteRef2").text("+1");
         $("button#vote-ref1").attr("disabled",true);
-        alert(referundum2);
+        
     })
     $("button#submit-county").click(function(){
         $("#but1").text("Vote");
@@ -116,7 +116,7 @@ $(document).ready(function(){
         }
     });
     $(".btnNairobi").click(function(){
-        if (presidentVote2 > 0){
+        if (presidentVote2 > 0 || presidentVote1 > 0 || governorVote1 > 0 || governorVote2 > 0 || governorVote3 > 0 || governorVote4 > 0){
             $(".president").hide();
             $("#t").hide();
             $(".governor1").hide();
@@ -133,7 +133,7 @@ $(document).ready(function(){
         
     });
     $(".btnKiambu").click(function(){
-        if(presidentVote2 > 0){
+        if(presidentVote2 > 0 || presidentVote1 > 0 || governorVote1 > 0 || governorVote2 > 0 || governorVote3 > 0 || governorVote4 > 0){
             $(".president").hide();
             $("#t").hide();
             $(".governor2").hide();
