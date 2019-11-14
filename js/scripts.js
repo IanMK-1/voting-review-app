@@ -17,12 +17,23 @@ $(document).ready(function(){
     var mcaVote2 = 0;
     var mcaVote3 = 0;
     var mcaVote4 = 0;
+    var referundum1 = 0;
 
 
     $("button#election").one("click",function(){
         $(".details").hide();
         $(".chooseCounty").show();
     });
+    $("button#referendum").one("click",function(){
+        $(".details").hide();
+        $(".ref1").show();
+        $(".voteRef1").text("Vote");
+    });
+    $("button#vote-ref1").one("click",function(){
+        referundum1+=1;
+        $(".voteRef1").text("+1");
+        alert(referundum1);
+    })
     $("button#submit-county").click(function(){
         $("#but1").text("Vote");
         $("#but2").text("Vote");

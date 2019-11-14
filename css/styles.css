@@ -179,3 +179,11 @@ button#submit-county {
     margin-top: 25px;
     height: 250px;
 }
+.ref1 {
+    display: none;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
