@@ -9,6 +9,10 @@ $(document).ready(function(){
     var mpVote2 = 0;
     var mpVote3 = 0;
     var mpVote4 = 0;
+    var mpVote5 = 0;
+    var mpVote6 = 0;
+    var mpVote7 = 0;
+    var mpVote8 = 0;
 
     $("button#election").one("click",function(){
         $(".details").hide();
@@ -25,6 +29,10 @@ $(document).ready(function(){
         $("#but8").text("Vote");
         $("#but9").text("Vote");
         $("#but10").text("Vote");
+        $("#but11").text("Vote");
+        $("#but12").text("Vote");
+        $("#but13").text("Vote");
+        $("#but14").text("Vote");
 
         $(".chooseCounty").hide();
         
@@ -33,6 +41,7 @@ $(document).ready(function(){
             $("#t").show();
             $(".governor1").show();
             $("#t1").show();
+            $(".yourLocation1").show();
             
         }
         else if ($("#county").val()==="Kiambu"){
@@ -54,6 +63,18 @@ $(document).ready(function(){
             $(".yourLocation").hide();
             $(".mp2").show();
             $("#t4").show();
+        }
+    });
+    $("#submit-location1").click(function(){
+        if($("#selectLocation1").val()==="Westlands"){
+            $(".yourLocation1").hide();
+            $(".mp3").show();
+            $("#t5").show();
+        }
+        else if($("#selectLocation1").val()==="Ngong"){
+            $(".yourLocation1").hide();
+            $(".mp4").show();
+            $("#t6").show();
         }
     });
     $("#Candidate1").one("click",function(){
@@ -115,6 +136,30 @@ $(document).ready(function(){
         $("#but10").text("+1");
         $("#Candidate9").attr("disabled",true);
         alert(mpVote4);
+    });
+    $("#Candidate11").one("click",function(){
+        mpVote5+=1;
+        $("#but11").text("+1");
+        $("#Candidate12").attr("disabled",true);
+        alert(mpVote5);
+    });
+    $("#Candidate12").one("click",function(){
+        mpVote6+=1;
+        $("#but12").text("+1");
+        $("#Candidate11").attr("disabled",true);
+        alert(mpVote6);
+    });
+    $("#Candidate13").one("click",function(){
+        mpVote7+=1;
+        $("#but13").text("+1");
+        $("#Candidate14").attr("disabled",true);
+        alert(mpVote7);
+    });
+    $("#Candidate14").one("click",function(){
+        mpVote8+=1;
+        $("#but14").text("+1");
+        $("#Candidate13").attr("disabled",true);
+        alert(mpVote8);
     });
     
 });
