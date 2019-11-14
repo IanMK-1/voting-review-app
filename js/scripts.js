@@ -13,6 +13,10 @@ $(document).ready(function(){
     var mpVote6 = 0;
     var mpVote7 = 0;
     var mpVote8 = 0;
+    var mcaVote1 = 0;
+    var mcaVote2 = 0;
+    var mcaVote3 = 0;
+    var mcaVote4 = 0;
 
     $("button#election").one("click",function(){
         $(".details").hide();
@@ -33,6 +37,10 @@ $(document).ready(function(){
         $("#but12").text("Vote");
         $("#but13").text("Vote");
         $("#but14").text("Vote");
+        $("#but15").text("Vote");
+        $("#but16").text("Vote");
+        $("#but17").text("Vote");
+        $("#but18").text("Vote");
 
         $(".chooseCounty").hide();
         
@@ -42,6 +50,8 @@ $(document).ready(function(){
             $(".governor1").show();
             $("#t1").show();
             $(".yourLocation1").show();
+            $(".mca1").show();
+            $("#t7").show();
             
         }
         else if ($("#county").val()==="Kiambu"){
@@ -50,6 +60,8 @@ $(document).ready(function(){
             $(".governor2").show();
             $("#t2").show();
             $(".yourLocation").show();
+            $(".mca2").show();
+            $("#t8").show();
             
         }
     });
@@ -160,6 +172,30 @@ $(document).ready(function(){
         $("#but14").text("+1");
         $("#Candidate13").attr("disabled",true);
         alert(mpVote8);
+    });
+    $("#Candidate15").one("click",function(){
+        mcaVote1+=1;
+        $("#but15").text("+1");
+        $("#Candidate16").attr("disabled",true);
+        alert(mcaVote1);
+    });
+    $("#Candidate16").one("click",function(){
+        mcaVote2+=1;
+        $("#but16").text("+1");
+        $("#Candidate15").attr("disabled",true);
+        alert(mcaVote2);
+    });
+    $("#Candidate17").one("click",function(){
+        mcaVote3+=1;
+        $("#but17").text("+1");
+        $("#Candidate16").attr("disabled",true);
+        alert(mcaVote3);
+    });
+    $("#Candidate18").one("click",function(){
+        mcaVote4+=1;
+        $("#but18").text("+1");
+        $("#Candidate17").attr("disabled",true);
+        alert(mcaVote4);
     });
     
 });
