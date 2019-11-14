@@ -3,6 +3,8 @@ $(document).ready(function(){
     var presidentVote2 = 0;
     var governorVote1 = 0;
     var governorVote2 = 0;
+    var governorVote3 = 0;
+    var governorVote4 = 0;
 
     $("button#election").one("click",function(){
         $(".details").hide();
@@ -58,6 +60,18 @@ $(document).ready(function(){
         $("#but4").text("+1");
         $("#Candidate3").attr("disabled",true);
         alert(governorVote2);
+    });
+    $("#Candidate5").one("click",function(){
+        governorVote3+=1;
+        $("#but5").text("+1");
+        $("#Candidate6").attr("disabled",true);
+        alert(governorVote3);
+    });
+    $("#Candidate6").one("click",function(){
+        governorVote4+=1;
+        $("#but6").text("+1");
+        $("#Candidate5").attr("disabled",true);
+        alert(governorVote4);
     });
     
 });
