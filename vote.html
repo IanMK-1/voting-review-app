@@ -4,6 +4,7 @@
         <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
         <link href="css/styles.css" type="text/css" rel="stylesheet">
         <script src="js/jquery-3.4.1.js"></script>
+        <script src="js/cookie.js"></script>
         <script src="js/scripts.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet"> 
         <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
@@ -53,6 +54,27 @@
                 </div>
                 <div class="col-md-9">
                     <div class="card" id="query">
+                        <div class="details">
+                            <h4><strong>Election</strong></h4>
+                            <p>In elections, you are given the chance to vote on the person of your choice 
+                                for the following positions:
+                                <ul>
+                                    <li>President</li>
+                                    <li>Governor of your county</li>
+                                    <li>Member of parliament</li>
+                                    <li>MCA</li>
+                                </ul>
+                            </p>
+                            <br>
+                            <h4><strong>Referendum</strong></h4>
+                            <p>In referendums, you are given the chance to vote on the referendum you think best 
+                                addresses the problems that you and people of Kenya in general face. In this section
+                                you will be given the various referendums that are in contention and a small description 
+                                of it and you will be asked to vote for the referendum of your choice.
+                            </p>
+                            <br>
+                            <p>Please click on either of the two buttons on the left to go to the sections named above</p>
+                        </div>
                         <div class="chooseCounty">
                             <p>Please select your county.</p>
                             <select id="county">
@@ -61,7 +83,7 @@
                             </select>
                             <button class="btn bg-info" id="submit-county">Submit</button>
                         </div>
-                        <div class="votingPage">
+                        <div class="prezzo">
                             <h4><strong>President</strong></h4>
                             <div class="table-responsive">
                                 <table class="table table-bordered">
@@ -77,6 +99,26 @@
                                         <td>2. Alice Jane</td>
                                         <td>Jubilee</td>
                                         <td><button type="button" class="btn bg-primary" id="Candidate2"><div id="but2"></div></button></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="governor">
+                            <h4><strong>Governor of <div class="nameOfCounty"></div></strong></h4>
+                            <div class="table-responsive">
+                                <table class="table table-bordered">
+                                    <th>Candidates</th>
+                                    <th>Political Party</th>
+                                    <th></th>
+                                    <tr>
+                                        <td>1. John Doe</td>
+                                        <td>NARC Kenya</td>
+                                        <td><button type="button" class="btn bg-primary" id="Candidate3"><div id="but3"></div></button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>2. Alice Jane</td>
+                                        <td>Jubilee</td>
+                                        <td><button type="button" class="btn bg-primary" id="Candidate4"><div id="but4"></div></button></td>
                                     </tr>
                                 </table>
                             </div>

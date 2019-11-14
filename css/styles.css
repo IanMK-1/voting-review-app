@@ -42,6 +42,10 @@ body {
 .btn {
     margin-bottom: 5px;
 }
+.details {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
 #election {
     width: 100%;
 }
@@ -70,12 +74,20 @@ button#submit-county {
     border-color: black;
     border-width: 2px;
     padding: 5px;
-    padding-bottom: 250px;
+    padding-bottom: 20px;
+    resize: none;
 }
-.votingPage {
+.prezzo {
     display: none;
     text-align: center;
     margin: 3%;
     margin-top: 55px;
+    font-family: 'Raleway', sans-serif;
+}
+.governor {
+    display: none;
+    text-align: center;
+    margin: 3%;
+    margin-top: 15px;
     font-family: 'Raleway', sans-serif;
 }
