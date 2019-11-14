@@ -125,6 +125,8 @@ $(document).ready(function(){
             $(".mca1").hide();
             $("#t7").hide();
             $(".btnNairobi").hide();
+            $(".mp3").hide();
+            $(".mp4").hide();
             $(".textMsg").show();
         }
         else {
@@ -142,6 +144,8 @@ $(document).ready(function(){
             $(".mca2").hide();
             $("#t8").hide();
             $(".btnKiambu").hide();
+            $(".mp1").hide();
+            $(".mp2").hide();
             $(".textMsg").show();
         }
         else {
