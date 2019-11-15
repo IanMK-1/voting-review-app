@@ -7,7 +7,7 @@
 
 #### Voting and Review Web application is an application that allows citizens to vote and review their leaders. They can vote on the mobile or pc devices instead of queueing in long lines during elections. They can also review leaders by rating their performance on several issues that affect the people.
 
-![Voting and Review Web App]()
+![Voting and Review Web App](/images/website.png)
 
 ## Setup/Installation Requirements
 - You will need either a computer or phone that can access the internet.
